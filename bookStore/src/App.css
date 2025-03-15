@@ -1,0 +1,71 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  padding-left: 1em;
+}
+button{
+ margin:  0.5em 0.5em;
+ background-color: rgb(117, 117, 164);
+ border: none;
+ color: white;
+ padding: 0.5em;
+ border-radius: 0.3em;
+}
+.active{
+  color: tomato;
+  text-decoration: underline;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  text-align: center;
+  margin:  3em auto ;
+  gap: 1em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: rgb(240, 241, 241);
+  padding: 2em;
+  border-radius: 1em;
+}
+input{
+  padding: 0.5em;
+}
+h2{
+  
+  text-align: center;
+}
+.form button{
+  width:40%;
+  padding: 0.4em;
+  margin-left: 9em;
+  background-color: rgb(55, 55, 139);
+  color: white;
+  border-radius: 0.3em;
+}
+.book{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+  margin: 1em;
+}
+.book div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1em;
+  text-align: center;
+}
+.book div:hover{
+  cursor: pointer;
+  background-color: rgb(249, 215, 249);
+}
+#heart{
+  border: none;
+  background-color:transparent;
+  color: black;
+}
